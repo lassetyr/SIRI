@@ -33,7 +33,7 @@
     </Date>
     <Date>
      <Modified>2012-03-22</Modified>
-     <!-- SIRI 2.0 
+     <!-- SIRI 2.0
 					Create from siri_journey
 					Add TrainNumber
 					Add departed, missed states to ProgressStatusEnum (arrivalStatus and  DepartureStatus)
@@ -41,7 +41,7 @@
     </Date>
     <Date>
      <Modified>2013-02-11</Modified>
-     <!-- SIRI 2.0 
+     <!-- SIRI 2.0
 					Add notExpected state to ProgressStatusEnum
 					Corrected enumeration value cancellled in VehicleStatusEnum -->
     </Date>
