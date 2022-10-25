@@ -123,7 +123,7 @@ Rail transport, Roads and road transport
    <xsd:documentation>Type for list of SITUATIONs.</xsd:documentation>
   </xsd:annotation>
   <xsd:sequence>
-   <xsd:element name="ActionStatus" type="ActionStatusEnumeration" default="open" minOccurs="0">
+   <xsd:element name="ActionStatus" type="ActionStatusEnumeration" minOccurs="0">
     <xsd:annotation>
      <xsd:documentation>Processing Status of action at time of SITUATION publication. Default is 'open'.</xsd:documentation>
     </xsd:annotation>
@@ -194,6 +194,7 @@ Rail transport, Roads and road transport
   <xsd:restriction base="xsd:NMTOKEN">
    <xsd:enumeration value="open"/>
    <xsd:enumeration value="published"/>
+   <xsd:enumeration value="closing"/>
    <xsd:enumeration value="closed"/>
   </xsd:restriction>
  </xsd:simpleType>
