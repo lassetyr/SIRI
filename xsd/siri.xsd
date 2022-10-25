@@ -361,6 +361,11 @@ Rail transport, Roads and road transport.
   </xsd:annotation>
   <xsd:sequence>
    <xsd:group ref="ServiceDeliveryRequestStatusGroup"/>
+   <xsd:element name="AllData" type="xsd:boolean" default="false" minOccurs="0">
+    <xsd:annotation>
+     <xsd:documentation>Whether to return all data, or just new updates since the last delivery. Default false, i.e. just updates.</xsd:documentation>
+    </xsd:annotation>
+   </xsd:element>
    <xsd:element name="MoreData" type="xsd:boolean" default="false" minOccurs="0">
     <xsd:annotation>
      <xsd:documentation>Whether there is a further delivery message with more current updates that follows this one. Default is 'false'.</xsd:documentation>
