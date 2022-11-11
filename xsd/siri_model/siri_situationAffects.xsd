@@ -191,7 +191,7 @@ Rail transport, Roads and road transport
    </xsd:element>
    <xsd:element name="Lines" minOccurs="0">
     <xsd:annotation>
-     <xsd:documentation>Used to restrict stop points to some lines</xsd:documentation>
+     <xsd:documentation>Used to restrict stop points to some lines. DEPRECATED since SIRI 2.1</xsd:documentation>
     </xsd:annotation>
     <xsd:complexType>
      <xsd:sequence>
@@ -533,7 +533,7 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="AffectedOperator" type="AffectedOperatorStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
-     <xsd:documentation>Operators of LINEs affected by incident. Overrides any value specified for (i) General Context.</xsd:documentation>
+     <xsd:documentation>Operators of LINEs affected by incident. Overrides any value specified for (i) General Context. DEPRECATED since SIRI 2.1</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="NetworkRef" type="NetworkRefStructure" minOccurs="0">
@@ -555,7 +555,7 @@ Rail transport, Roads and road transport
    <xsd:choice>
     <xsd:element name="AllLines" type="EmptyType">
      <xsd:annotation>
-      <xsd:documentation>All LINEs in the network are affected.</xsd:documentation>
+      <xsd:documentation>All LINEs in the network are affected. DEPRECATED since SIRI 2.1</xsd:documentation>
      </xsd:annotation>
     </xsd:element>
     <xsd:element name="SelectedRoutes" type="AffectedRouteStructure" maxOccurs="unbounded">
@@ -1233,7 +1233,7 @@ Rail transport, Roads and road transport
      </xsd:element>
      <xsd:element name="Lines" minOccurs="0">
       <xsd:annotation>
-       <xsd:documentation>Used to restrict STOP PLACEs to some lines</xsd:documentation>
+       <xsd:documentation>Used to restrict STOP PLACEs to some lines. DEPRECATED since SIRI 2.1</xsd:documentation>
       </xsd:annotation>
       <xsd:complexType>
        <xsd:sequence>
