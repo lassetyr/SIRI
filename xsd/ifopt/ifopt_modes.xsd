@@ -76,9 +76,15 @@ Rail transport, Roads and road transport
   <xsd:restriction base="xsd:string">
    <xsd:enumeration value="foot"/>
    <xsd:enumeration value="bicycle"/>
+   <xsd:enumeration value="boat"/>
    <xsd:enumeration value="car"/>
    <xsd:enumeration value="taxi"/>
    <xsd:enumeration value="shuttle"/>
+   <xsd:enumeration value="ski"/>
+   <xsd:enumeration value="skate"/>
+   <xsd:enumeration value="motorcycle"/>
+   <xsd:enumeration value="scooter"/>
+   <xsd:enumeration value="wheelchair"/>
   </xsd:restriction>
  </xsd:simpleType>
 </xsd:schema>
